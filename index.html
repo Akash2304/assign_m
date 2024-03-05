@@ -10,21 +10,24 @@
 #box{
     width: 100%;
     height: auto;
-      border: 2px solid;
+     
       display: flex;
       justify-content: space-between;
+      border-collapse: collapse;
+     
 }
 
 .c1{
+    border-collapse: collapse;
 width: 24%;
 height: auto;
-border: 2px solid;
+
 /* all block element comes in same line */
 display: inline-block;
 
 margin-left: 2px;
 padding: 3px;
-box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+
 
 }
 
@@ -39,14 +42,20 @@ img{
     margin: auto;
   
 }
+.inbox{
+    background-color: #e5e7eb;
+    height: 15px;
+}
 
     </style>
 </head>
 <body>
     <div id="box">
 
-        <div class="c1">
+        <div class="c1" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;">
+                  <div class="inbox">
 
+                  </div>
             <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="">
         <h3>Vijay Shekhar Sharma</h3>
         <p>Founder & CEO</p>
@@ -54,7 +63,9 @@ img{
         </div>
 
         <div class="c1">
+            <div class="inbox">
 
+            </div>
             <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Rectangle_427_637d69bb57.png" alt="">
         <h3>Kunal Shah</h3>
         <p>Founder</p>
@@ -62,7 +73,9 @@ img{
         </div>
 
         <div class="c1">
+            <div class="inbox">
 
+            </div>
             <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/amrish_rau_pine_labs_144e5e587c.jpg" alt="">
         <h3>Amrish Rau</h3>
         <p>CEO</p>
@@ -70,7 +83,9 @@ img{
         </div>
 
         <div class="c1">
+            <div class="inbox">
 
+            </div>
             <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Sampad_swain_Instamojo_f12bf6341e.jpg" alt="">
         <h3>Sampad Swain</h3>
         <p>Co-Founder & CEO</p>
